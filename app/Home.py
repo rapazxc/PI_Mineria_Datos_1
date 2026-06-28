@@ -40,8 +40,8 @@ st.markdown("---")
 st.header("Enlaces")
 
 st.markdown("""
-- **Repositorio GitHub:** [Pendiente de publicación](#)
-- **Aplicación Streamlit:** [Pendiente de publicación](#)
+- **Repositorio GitHub:** [Ver repositorio](https://github.com/rapazxc/PI_Mineria_Datos_1)
+- **Aplicación Streamlit:** [Abrir aplicación](https://pimineriadatos1-tqsw3bdv3lqgxtqkwaqpti.streamlit.app/)
 - **Informe final:** `reports/informe_final.pdf`
 - **Log ETL:** `logs/pipeline_log.csv`
 """)
