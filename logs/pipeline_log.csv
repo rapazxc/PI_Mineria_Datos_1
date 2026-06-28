@@ -1,0 +1,12 @@
+Paso,Descripción,Filas,Nulos,Retención (%)
+Carga inicial,Se carga el dataset original y se crea una copia de trabajo sin modificar el archivo raw.,8160,753,100.0
+Eliminación de duplicados completos,Se eliminaron filas repetidas en todas sus columnas para evitar duplicación de información.,8034,753,98.46
+Revisión de user_id repetidos,Se detectaron user_id repetidos con diferencias entre registros. No se eliminan en esta etapa; se pospone su consolidación hasta finalizar la normalización y validación de datos.,8034,753,98.46
+Normalización de subscription_plan,"Se unificaron variantes de escritura de los planes de suscripción en Básico, Estándar y Premium.",8034,753,98.46
+Normalización de country,"Se unificaron variantes de escritura, abreviaturas e idiomas en la variable country.",8034,753,98.46
+Normalización de favorite_genre,"Se unificaron variantes de escritura, abreviaturas e idiomas en la variable favorite_genre.",8034,753,98.46
+Tratamiento de edades inválidas,Se reemplazaron edades menores o iguales a 0 y mayores a 100 por la mediana de las edades válidas.,8034,753,98.46
+Tratamiento de tiempos de visualización inválidos,Se reemplazaron tiempos negativos y mayores a 43.200 minutos por la mediana de los tiempos válidos.,8034,560,98.46
+Tratamiento de tickets de soporte inválidos,Se reemplazaron tickets negativos y mayores a 20 por la mediana de los valores válidos.,8034,560,98.46
+Tratamiento de last_login_date,"Se convirtió last_login_date a formato fecha. Los valores inválidos, faltantes o futuros se marcaron como NaT.",8034,639,98.46
+Consolidación de user_id repetidos,"Se conservó un único registro por user_id, priorizando registros más completos y, en caso de empate, la fecha de último login más reciente.",8000,631,98.04
