@@ -22,8 +22,8 @@ st.header("Información del proyecto")
 
 st.markdown("""
 **Materia:** Minería de Datos I  
-**Integrantes:** [Completar integrantes]  
-**Comisión:** [Completar comisión]  
+**Integrantes:** Facundo Sayago - Luis Umbides  
+**Comisión:** Turno Tarde  
 **Fecha:** Junio 2026  
 """)
 
